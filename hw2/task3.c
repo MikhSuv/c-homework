@@ -12,6 +12,7 @@ int main(void) {
 
   read_array(a, n);
   print_array(a, n);
+  printf("\n");
   quick_sort(a, 0, n - 1);
   print_array(a, n);
 
